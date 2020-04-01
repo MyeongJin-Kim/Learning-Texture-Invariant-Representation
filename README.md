@@ -1,1 +1,1 @@
-Implementation of learning texture invariant representation of domain adaptation of semantic segmentation https://arxiv.org/abs/2003.00867
+Implementation of Learning Texture Invariant Representation of Domain Adaptation of Semantic Segmentation https://arxiv.org/abs/2003.00867
