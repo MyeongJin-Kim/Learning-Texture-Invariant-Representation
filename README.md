@@ -19,13 +19,13 @@ We used code from [Style-swap](https://github.com/rtqichen/style-swap) and [Cycl
 
 Initial weight
 
-```
-python train_gta2cityscapes.py --translated-data-dir /Path/to/translated/source --stylized-data-dir /Path/to/stylized/source
-```
-
 * [ResNet](https://drive.google.com/file/d/1aakvRd3OI8TBaBH7gfw1kgm4B0d7HZB1/view?usp=sharing)
 
 * [VGG](https://drive.google.com/file/d/1fqJvVd1I65G2A_1GD9ZRIyuruTPRpnbq/view?usp=sharing)
+
+```
+python train_gta2cityscapes.py --translated-data-dir /Path/to/translated/source --stylized-data-dir /Path/to/stylized/source
+```
 
 ### Evalutation
 
@@ -39,13 +39,11 @@ python compute_iou.py /Path/to/Cityscapes/gtFine/val /Path/to/results
 ##### GTA5 to Cityscapes
 
 * [ResNet](https://drive.google.com/file/d/1uwNFhrHYnTU-lAcs6hT4r_rg2Pqib-K1/view?usp=sharing)
-
 * [VGG](https://drive.google.com/file/d/1gAjmwbg60JDIzE4oLxymr2Dwsco_xB5Q/view?usp=sharing)
 
 ##### SYNTHIA to Cityscapes
 
 * [ResNet](https://drive.google.com/file/d/1q50tLjbzKZxOA-Wj_YWvs7bq85JtHTow/view?usp=sharing)
-
 * [VGG](https://drive.google.com/file/d/1Gx4Pkav6XAWZQHlp5kzAPytb41zHSEtT/view?usp=sharing)
 
 ### Acknowledgement
