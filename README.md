@@ -1,10 +1,14 @@
-# Learning Texture Invariant Representation ___\\ for Domain Adaptation of Semantic Segmentation 
+# Learning Texture Invariant Representation for Domain Adaptation of Semantic Segmentation 
 
 A pytorch implementation of [LTIR](https://arxiv.org/abs/2003.00867).
 
 <img width="534" alt="image" src="https://user-images.githubusercontent.com/39029444/78094147-c9123800-740e-11ea-83b0-3ee28c2d305b.png">
 
+### Requirements
 
+* Python 3.6
+* torch==1.2
+* Pillow==6.0.0
 
 ### Weight of Final Model
 
@@ -20,4 +24,7 @@ A pytorch implementation of [LTIR](https://arxiv.org/abs/2003.00867).
 
 * [VGG](https://drive.google.com/file/d/1Gx4Pkav6XAWZQHlp5kzAPytb41zHSEtT/view?usp=sharing)
 
-This code is heavily borrowed from [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet) and [BDL](https://github.com/liyunsheng13/BDL)
+### Acknowledgement
+
+This code is heavily borrowed from [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet) and [BDL](https://github.com/liyunsheng13/BDL).
+ 
