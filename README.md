@@ -11,9 +11,28 @@ A pytorch implementation of [LTIR](https://arxiv.org/abs/2003.00867).
 * torchvision==0.4
 * Pillow==6.1.0
 
-### Stylizing dataset
+### Preparing dataset
 
-We used code from [Style-swap](https://github.com/rtqichen/style-swap).
+We used code from [Style-swap](https://github.com/rtqichen/style-swap) and [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
+### Training
+
+Initial weight
+
+```
+python train_gta2cityscapes.py --translated-data-dir /Path/to/translated/source --stylized-data-dir /Path/to/stylized/source
+```
+
+* [ResNet](https://drive.google.com/file/d/1aakvRd3OI8TBaBH7gfw1kgm4B0d7HZB1/view?usp=sharing)
+
+* [VGG](https://drive.google.com/file/d/1fqJvVd1I65G2A_1GD9ZRIyuruTPRpnbq/view?usp=sharing)
+
+### Evalutation
+
+```
+python evaluate_cityscapes.py --restore-from /Path/to/weight
+python compute_iou.py /Path/to/Cityscapes/gtFine/val /Path/to/results
+```
 
 ### Weight of Final Model
 
