@@ -13,7 +13,7 @@ A pytorch implementation of [LTIR](https://arxiv.org/abs/2003.00867).
 
 ### Stylizing dataset
 
-We used code from [Style-swap](https://github.com/rtqichen/style-swap)
+We used code from [Style-swap](https://github.com/rtqichen/style-swap).
 
 ### Weight of Final Model
 
