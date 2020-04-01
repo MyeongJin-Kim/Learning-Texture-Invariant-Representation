@@ -1,4 +1,4 @@
-# Learning Texture Invariant Representation of Domain Adaptation of Semantic Segmentation 
+# Learning Texture Invariant Representation ___\\ for Domain Adaptation of Semantic Segmentation 
 
 A pytorch implementation of [LTIR](https://arxiv.org/abs/2003.00867).
 
