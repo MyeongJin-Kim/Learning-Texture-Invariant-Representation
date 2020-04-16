@@ -349,6 +349,14 @@ def main():
 
 
         if STAGE == 1:
+        	# train with target
+            _, batch = next(targetloader_iter)
+            image_target, target_label, _, _ = batch
+            image_target = Variable(image_target).cuda(args.gpu)
+
+            pred_target = model(image_target)
+            pred_target = interp_target(pred_target)
+            
             #output-level adversarial training
             D_output_target = model_D(F.softmax(pred_target))
             loss_adv = bce_loss(D_output_target, Variable(torch.FloatTensor(D_output_target.data.size()).fill_(source_adv_label)).cuda(args.gpu))
