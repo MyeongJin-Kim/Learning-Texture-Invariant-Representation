@@ -351,7 +351,7 @@ def main():
         if STAGE == 1:
         	# train with target
             _, batch = next(targetloader_iter)
-            image_target, target_label, _, _ = batch
+            image_target, _, _ = batch
             image_target = Variable(image_target).cuda(args.gpu)
 
             pred_target = model(image_target)
