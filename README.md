@@ -48,5 +48,5 @@ python compute_iou.py /Path/to/Cityscapes/gtFine/val /Path/to/results
 
 ### Acknowledgement
 
-This code is heavily borrowed from [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet) and [BDL](https://github.com/liyunsheng13/BDL).
+This code is based on [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet) and [BDL](https://github.com/liyunsheng13/BDL).
  
